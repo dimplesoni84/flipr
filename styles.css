@@ -1,0 +1,51 @@
+/* Add your styles here */
+.container{
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding:0;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    justify-content: center;
+    align-items: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color:blueviolet;
+    text-align: center;
+}
+ h2 {
+    color:black;
+    text-align: center;
+}
+
+.filters {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filters select {
+    margin-right: 10px;
+}
+
+.prize-winners, .multiple-winners {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.prize-winners ul, .multiple-winners ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.prize-winners li, .multiple-winners li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
